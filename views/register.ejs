@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QnA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="row main container">
+       <div class="col-lg-6 leftPart">
+
+       </div>
+       <div class="col-lg-6 rightPart">
+         <div class='box'>
+           <div class='wave -one'></div>
+           <div class='wave -two'></div>
+           <div class='wave -three'></div>
+           <div class='title'>WeCBR QnA</div>
+         </div>
+
+          <form class="form-signin" action="/" method="post">
+            <img class="logo" src="/images/logo.png" style="border-radius:100%" height="70" width="70" alt="logo">
+            <div class="row" >
+              <div class="col-lg-6">
+                    <label class="labels">First Name: </label>
+                    <input  class="form-control " type="text" name="firstName" value="" placeholder="First Name">
+              </div>
+              <div class="col-lg-6">
+                <label class="labels">Last Name: </label>
+                <input  class="form-control" type="text" name="lastName" value="" placeholder="Last Name">
+              </div>
+
+
+            </div>
+
+            <div class="row" >
+              <div class="col-lg-6">
+                <label class="labels">Email: </label>
+                 <input class="form-control" type="text" name="email" value="" placeholder="Your Email">
+              </div>
+              <div class="col-lg-6">
+                <label class="labels">Username: </label>
+               <input class="form-control" type="text" name="userName" value="" placeholder="Choose a Username">
+              </div>
+            </div>
+            <div class="row" >
+              <div class="col-lg-6">
+                <label class="labels">Password: </label>
+                 <input class="form-control" type="password" name="password" value="" placeholder="Password">
+              </div>
+              <div class="col-lg-6">
+                <label class="labels">Confirm Password: </label>
+               <input class="form-control " type="password" name="confirmPassword" value="" placeholder="Confirm Password">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-md submitData" name="button">Submit</button>
+          </form>
+
+         <h5 class="accountAlready">Already have an account? <a href="/login">Sign in</a> </h5>
+       </div>
+    </div>
+
+
+
+  </body>
+</html>
